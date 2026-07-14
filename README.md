@@ -83,3 +83,17 @@ The long-term goal is to build a general experimental framework for studying opt
 > *Every project starts with a question.*
 >
 > *This repository is my attempt to answer one of them.*
+
+## Project Progress
+
+### Version 0.1（2026-07-13）
+- Implemented sequence generator.
+- Implemented Local Fix strategy.
+- Implemented Suffix Flip strategy.
+- Verified algorithm correctness using single-case experiments.
+
+### Version 0.2（2026-07-14）
+- Built a Monte Carlo simulation framework.
+- Compared both strategies over a large number of random sequences.
+- Observed that both strategies require approximately n/2 operations on average under uniformly random binary sequences.
+- Proposed future investigations into different input distributions and theoretical analysis.
